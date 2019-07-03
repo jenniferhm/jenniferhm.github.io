@@ -1,0 +1,71 @@
+
+body {
+    font: 40px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+p {font-size: 16px;}
+
+.margin {margin-bottom: 10px;}
+
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.877);
+    color: rgb(248, 248, 248);
+    background-color: rgb(0, 0, 0);
+    background-image: url('images/DTLA.jpg');
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    background-position: top center;
+  }
+
+.btn {
+    background-color: #474e5d;
+}
+
+.bg-1 {
+    background-color: #0052bdd3;
+    color: #ffffff;
+}
+.bg-2 { 
+    background-color: #e6e6e6; /* Dark Blue */
+    color: #201f1f;
+}
+.bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar a:hover {
+    color: #0052bdd3 !important;
+}
+
+footer p {
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}
+
+.footernav {
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
